@@ -1,11 +1,9 @@
 <script setup>
-import Counter from './components/Counter.vue';
-import TaskList from './components/TaskList.vue';
+import MainView from './views/MainView.vue';
 </script>
 
 <template>
-  <Counter></Counter>
-  <TaskList></TaskList>
+  <MainView></MainView>
 </template>
 
 <style scoped></style>
